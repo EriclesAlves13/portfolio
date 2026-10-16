@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <!-- link do google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+   <!-- link do font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- link do css style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navegação -->
+ <nav class="navbar">
+    <a href="#" class="logo">PORT<span>FOLIO</span></a>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+    </div>
+    </nav>
+
+    <!-- Seção Home -->
+     <section id="home">
+        <div class="content">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>CODIGO DO FUTURO NEON</h1>
+                    <h2>Web Full Stack</h2>
+                    <p>Sou um desenvolvedor apaixonado por criar soluções inovadoras.</p>
+                    <div class="btn-group">
+                        <a href="#projects" class="btn btn-primary">
+                        <i class="fa-solid fa-rocket"></i> Projetos
+                        </a>
+                        <a href="#contact" class="btn">
+                            <i class="fa-solid fa-paper-plane"></i> Contato
+                        </a>
+                    </div>
+                </div>
+                <div class="profile-container">
+                    <div class="profile-wrapper">
+                    <img src="profile.jpg" alt="Foto de Perfil" class="profile-img">
+                     <div class="glow-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about">
+        <div class="content">
+            <h2 class="section-title">Sobre <span>Mim</span></h2>
+            <div class="about-grid">
+                <p class="about-text">
+                    Sou desenvolvedor full stack, focado em construir sites e sistemas web do zero —
+                    do front-end ao banco de dados. Trabalho com
+                    <strong>React</strong>, <strong>Vite</strong>, <strong>Next.js</strong>,
+                    <strong>TypeScript</strong>, <strong>Node.js</strong> e bancos como
+                    <strong>PostgreSQL</strong> e <strong>Supabase</strong>, sempre buscando entregar
+                    produtos rápidos, responsivos e fáceis de manter. Já desenvolvi e publiquei sites
+                    institucionais, catálogos com painel administrativo e sistemas de gestão completos
+                    para clientes reais.
+                </p>
+                <div class="skills">
+                    <span class="skill-pill">React</span>
+                    <span class="skill-pill">TypeScript</span>
+                    <span class="skill-pill">Next.js</span>
+                    <span class="skill-pill">Node.js</span>
+                    <span class="skill-pill">PostgreSQL</span>
+                    <span class="skill-pill">Supabase</span>
+                    <span class="skill-pill">Tailwind CSS</span>
+                    <span class="skill-pill">Git / GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects">
+        <div class="content">
+            <h2 class="section-title">Meus <span>Projetos</span></h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <h3>Belliv</h3>
+                    </div>
+                    <p>
+                        Catálogo de moda feminina com variações de tamanho e cor, painel
+                        administrativo completo e checkout via WhatsApp.
+                    </p>
+                    <div class="project-tags">
+                        <span>React</span><span>Vite</span><span>Supabase</span>
+                    </div>
+                    <a href="https://catalogo-belliv.netlify.app" target="_blank" rel="noreferrer" class="btn btn-sm">
+                        Ver site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-bread-slice"></i>
+                        <h3>Padaria Gestão</h3>
+                    </div>
+                    <p>
+                        Sistema de gestão para padaria: controle de estoque, fechamento de produção
+                        e mercearia, com relatórios semanais.
+                    </p>
+                    <div class="project-tags">
+                        <span>Next.js</span><span>Prisma</span><span>PostgreSQL</span>
+                    </div>
+                    <a href="https://padaria-gestao.vercel.app" target="_blank" rel="noreferrer" class="btn btn-sm">
+                        Ver site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <i class="fa-solid fa-burger"></i>
+                        <h3>TopBurger Maranguape</h3>
+                    </div>
+                    <p>
+                        Site institucional para hamburgueria, com cardápio, informações de contato
+                        e pedido direto pelo WhatsApp.
+                    </p>
+                    <div class="project-tags">
+                        <span>React</span><span>Vite</span><span>Tailwind</span>
+                    </div>
+                    <a href="https://topburger-maranguape.netlify.app" target="_blank" rel="noreferrer" class="btn btn-sm">
+                        Ver site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact">
+        <div class="content">
+            <h2 class="section-title">Entre em <span>Contato</span></h2>
+            <div class="contact-grid">
+                <a href="mailto:ericles45alves@gmail.com" class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>ericles45alves@gmail.com</span>
+                </a>
+                <a href="https://wa.me/5585921476511" target="_blank" rel="noreferrer" class="contact-card">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>(85) 92147-6511</span>
+                </a>
+                <a href="https://www.instagram.com/ericlesalves_4/" target="_blank" rel="noreferrer" class="contact-card">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>@ericlesalves_4</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Rodape-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+             <div class="footer-logo">NEON<span>DEV</span></div>
+              <P class="footer-text"> Criar experiências digitais que iluminem o futuro de desenvolvedor web full stack.</P>
+                <div class="social-links">
+                 <a href="https://github.com/EriclesAlves13" target="_blank" rel="noreferrer" class="social-links"><i class="fab fa-github"></i></a>
+                 <a href="https://wa.me/5585921476511" target="_blank" rel="noreferrer" class="social-links"><i class="fab fa-whatsapp"></i></a>
+                 <a href="https://www.instagram.com/ericlesalves_4/" target="_blank" rel="noreferrer" class="social-links"><i class="fab fa-instagram"></i></a>
+                </div>
+              <p class="copyright">© 2026 NeonDev. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+<!--link do js script -->
+<script src="script.js"></script>
+
+<!--Particulas logo-->
+
+</body>
+</html>
