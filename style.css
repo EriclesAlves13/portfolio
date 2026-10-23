@@ -272,7 +272,11 @@ p {
         animation: glow 3s infinite alternate, morph 12s ease-in-out infinite;
          position: relative;
          z-index: 10;
-         background: linear-gradient(45deg, var(--dark-bg), var(--darker-bg));
+         object-position: center top;
+         background:
+            radial-gradient(circle at 50% 38%, rgba(255, 42, 109, 0.55), transparent 55%),
+            radial-gradient(circle at 50% 100%, rgba(255, 0, 60, 0.45), transparent 60%),
+            linear-gradient(45deg, var(--dark-bg), var(--darker-bg));
 }
 
 @keyframes glow {
