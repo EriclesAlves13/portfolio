@@ -368,6 +368,17 @@ p {
     font-weight: 600;
 }
 
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+.about-text a {
+    color: var(--neon-red);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -414,6 +425,20 @@ p {
     transform: translateY(-8px);
     border-color: var(--neon-red);
     box-shadow: 0 15px 40px rgba(255, 0, 60, 0.2);
+}
+
+.project-badge {
+    align-self: flex-start;
+    margin-bottom: -6px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: var(--neon-red);
+    border: 1px solid rgba(255, 0, 60, 0.45);
+    background: rgba(255, 0, 60, 0.08);
 }
 
 .project-card-header {
